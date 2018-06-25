@@ -19,7 +19,7 @@ CREATE TABLE books (
   id INTEGER PRIMARY KEY,
   title TEXT,
   year INTEGER,
-  series TEXT
+  series_id TEXT
 );
 
 CREATE TABLE characters (
